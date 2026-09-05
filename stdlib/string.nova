@@ -1,0 +1,3 @@
+fn shout(x) {
+    return x + "!"
+}
