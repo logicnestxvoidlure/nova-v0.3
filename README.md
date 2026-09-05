@@ -112,4 +112,5 @@ max()
 
 See the `examples` directory.
 
-Nova v3 is designed as an educational and extensible language runtime.
+Nova v3 is designed as an educational and extensible language runtime
+old v2 : https://github.com/logicnestxvoidlure/nova-v2
