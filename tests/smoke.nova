@@ -1,0 +1,16 @@
+let x = 10
+let y = 20
+if x < y {
+    print("PASS")
+} else {
+    print("FAIL")
+}
+
+fn fib(n) {
+    if n <= 1 {
+        return n
+    }
+    return fib(n - 1) + fib(n - 2)
+}
+
+print(fib(10))
