@@ -1,0 +1,8 @@
+write_file("nova_output.txt", "Nova v3 was here")
+let text = read_file("nova_output.txt")
+print(text)
+
+let encoded = json_encode({"language": "Nova", "version": 3})
+print(encoded)
+let decoded = json_decode(encoded)
+print(decoded["language"])

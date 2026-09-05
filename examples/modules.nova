@@ -1,0 +1,2 @@
+import "stdlib/math.nova" as mathlib
+print(mathlib["double"](21))

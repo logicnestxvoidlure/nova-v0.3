@@ -1,0 +1,12 @@
+class Animal {
+    fn init(name) {
+        this.name = name
+    }
+
+    fn speak() {
+        print(this.name)
+    }
+}
+
+let animal = new Animal("Nova")
+animal.speak()

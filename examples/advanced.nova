@@ -1,0 +1,20 @@
+fn factorial(n) {
+    if n <= 1 {
+        return 1
+    }
+    return n * factorial(n - 1)
+}
+
+fn make_adder(x) {
+    return fn(y) {
+        return x + y
+    }
+}
+
+let add10 = make_adder(10)
+print(factorial(6))
+print(add10(32))
+
+let data = {"name": "Nova", "version": 3}
+print(data["name"])
+print(data["version"])
